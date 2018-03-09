@@ -1,13 +1,11 @@
-import Arrays.CyclicRotation
+import TimeComplexity.TapeEquilibrium
 import java.util.*
-import Arrays.OddOccurrencesInArray
 
 
 fun main(args: Array<String>) {
-    val sol = OddOccurrencesInArray()
-    val A = arrayOf(9,3,9,3,9,7,9)
-    println("Start data ${Arrays.toString(A)}")
-    val result = sol.solution(A.toIntArray())
-    println("Result $result")
+    val sol = TapeEquilibrium()
+    val array = arrayOf(3,1,2,4,3)
+    println(Arrays.toString(array))
+    println("Smallest diff ${sol.solution(array.toIntArray())}")
 
 }
