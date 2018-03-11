@@ -1,11 +1,11 @@
-import TimeComplexity.TapeEquilibrium
+import TimeComplexity.PermMissingElem
 import java.util.*
 
 
 fun main(args: Array<String>) {
-    val sol = TapeEquilibrium()
-    val array = arrayOf(3,1,2,4,3)
+    val sol = PermMissingElem()
+    val array = arrayOf(2,3,1,5,4,7)
     println(Arrays.toString(array))
-    println("Smallest diff ${sol.solution(array.toIntArray())}")
+    println("Missing element ${sol.solution(array.toIntArray())}")
 
 }
